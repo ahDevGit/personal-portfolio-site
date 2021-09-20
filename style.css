@@ -2,6 +2,10 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+.container {
+  width: 90%;
+  margin: auto;
+}
 .name-hilight {
   color: orange;
 }
@@ -17,7 +21,24 @@ body {
 .top-header {
   background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
+  padding: 50px;
 }
 section {
   min-height: 500px;
+  padding-top: 150px;
+}
+
+.link-button {
+  text-decoration: none;
+  /* background-color: orangered; */
+  background-image: linear-gradient(45deg, red, tomato);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5%;
+  letter-spacing: 2px;
+}
+.intro-area {
+  background: url('images/introduction-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
 }
