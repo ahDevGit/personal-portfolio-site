@@ -11,7 +11,7 @@ body {
 }
 .half-width {
   width: 40%;
-  margin-right: 5%;
+  margin-left: 5%;
   float: left;
   padding-left: 2%;
 }
@@ -21,7 +21,6 @@ body {
 .top-header {
   background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
-  padding: 50px;
 }
 section {
   min-height: 500px;
@@ -41,4 +40,45 @@ section {
   background: url('images/introduction-bg.png');
   background-repeat: no-repeat;
   background-position: right;
+  background-size: 100px;
+}
+
+.experiences {
+  background: url('images/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 100px;
+}
+.experiences h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.single-experience {
+  /* border: 1px solid peru; */
+  box-shadow: 10px 10px 40px gray;
+  /* border-radius: 5%; */
+  height: 50%;
+  background-color: white;
+}
+#pro-web {
+  border-left: 5px solid orange;
+  border-image: linear-gradient(lightSalmon, Orange);
+  border-image-slice: 1;
+}
+#junior-web {
+  border-left: 5px solid orange;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  background-image: linear-gradient(lightSalmon, red);
+}
+footer p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
 }
